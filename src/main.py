@@ -3,10 +3,11 @@ from OpenGL.GLUT import *
 from OpenGL.GLU import *
 import math
 
+
 # Camera-related variables
 camera_pos = [0, -600, 400] 
 look_at = [0, 0, 0]
-
+#eita pore delete kortesi
 fovY = 60  
 FIELD_LENGTH = 800
 FIELD_WIDTH = 500
