@@ -20,7 +20,8 @@ Players control cars to score goals within a fixed time limit.
 - Fixed defender movement in front of goal
 - Goal detection and score update
 - Goal celebration animation (poppers)
-- Timer-based gameplay with extra time
+- Timer-based gameplay
+- 
 
 ## Technologies Used
 - Python
