@@ -62,7 +62,7 @@ player_choice = None  # 'heads' or 'tails'
 toss_result = None    # 'heads' or 'tails'
 toss_winner = None    # "You" or "Opponent"
 coin_flip_frame = 0   # Animation frame counter
-flip_duration = 1000   # Number of frames for flip animation (exactly 2 seconds at 60fps) 
+flip_duration = 1000   # Number of frames for flip animation 
 
 # Team and Match Variables
 player_team = None    # 'Red' or 'Blue'
@@ -1079,13 +1079,13 @@ def keyboardListener(key, x, y):
         elif key == b'b' or key == b'B':
             player_team = 'Blue'
             game_state = 3
-            # Blue is Player. RED ATTACKS FIRST (Opponent on Left).
+            # Blue is Player. Blue ATTACKS FIRST (Opponent on Left).
             # Blue starts on Right side facing Left.
             car_pos = [200, 0, 0]
             car_angle = 180
             def_pos = [-350, 0, 0]
             def_angle = 0
-            ball_pos = [-50, 0, 10] # Ball near Red
+            ball_pos = [50, 0, 10] # Ball near Red
             ball_vel = [0, 0, 0]
             last_timer_update = glutGet(GLUT_ELAPSED_TIME)
             glutPostRedisplay()
