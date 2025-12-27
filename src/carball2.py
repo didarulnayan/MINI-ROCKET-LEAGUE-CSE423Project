@@ -29,10 +29,10 @@ car_velo = 0
 CAR_WIDTH = 20
 CAR_LENGTH = 35
 CAR_HEIGHT = 15
-CAR_SPEED_CAP = 15
-CAR_ACCEL = 0.25
-CAR_DECEL = 0.95
-turn_speed = 8
+CAR_SPEED_CAP = 6
+CAR_ACCEL = 0.12
+CAR_DECEL = 0.90
+turn_speed = 5
 
 # Defender Car Variables (Car 2 - Arrow Keys)
 def_pos = [350, 0, 0]
@@ -1115,4 +1115,5 @@ def main():
     glutMainLoop()
 
 if __name__ == "__main__":
+
     main()
